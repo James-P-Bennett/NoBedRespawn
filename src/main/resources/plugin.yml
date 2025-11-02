@@ -1,0 +1,11 @@
+name: NoBedRespawn
+version: '1.0.0'
+main: com.jamesphbennett.nobedrespawn.NoBedRespawn
+api-version: '1.21'
+description: Disables bed respawn points while allowing sleep
+author: Hazmad_
+
+permissions:
+  nobedrespawn.bypass:
+    description: Allows bypassing the bed respawn disable
+    default: op
